@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="empty" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+            <block class="Magedev\Ccavenue\Block\InitPayment" name="ccavenue_init_payment" template="Magedev_Ccavenue::initpayment.phtml" cacheable="false" />
+        </referenceContainer>
+    </body>
+</page>

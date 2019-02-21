@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <ccavenue>
+                <title>CCAvenue</title>
+                <active>0</active>
+                <debug>1</debug>
+                <model>Magedev\Ccavenue\Model\Ccavenue</model>
+                <order_status>pending</order_status>
+                <payment_action>authorize</payment_action>
+                <can_authorize>1</can_authorize>
+                <can_capture>1</can_capture>
+                <is_gateway>1</is_gateway>
+                <currency>INR</currency>
+                <allowspecific>1</allowspecific>
+                <specificcountry>IN</specificcountry>
+            </ccavenue>
+        </payment>
+    </default>
+</config>
